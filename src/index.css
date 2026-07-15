@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Playfair Display", "Georgia", Cambria, serif;
+  
+  --color-gold-50: #faf7f0;
+  --color-gold-100: #f5eed3;
+  --color-gold-200: #ebdca9;
+  --color-gold-300: #e2c770;
+  --color-gold-400: #D4AF37;
+  --color-gold-500: #bfa130;
+  --color-gold-600: #a38525;
+  --color-gold-700: #82661d;
+  --color-gold-800: #664f19;
+  --color-gold-900: #4f3d14;
+  
+  --color-asian-red: #8B0000;
+  --color-asian-red-hover: #a80000;
+  --color-charcoal-light: #141414;
+  --color-charcoal-dark: #0A0A0A;
+}
+
+/* Custom scrollbar to keep layout premium */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e2c770;
+}
+
+/* Custom Glassmorphism Utility */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-light {
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Highlight Gold Gradient Text */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #f5eed3 0%, #D4AF37 50%, #82661d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-gold {
+  background: #D4AF37;
+  color: #0A0A0A;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background: #e2c770;
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+/* Custom animation delay classes */
+.animation-delay-100 {
+  animation-delay: 100ms;
+}
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+

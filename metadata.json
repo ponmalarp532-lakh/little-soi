@@ -1,0 +1,6 @@
+{
+  "name": "Little Soi – Coimbatore",
+  "description": "A modern, premium, fully responsive restaurant website for Little Soi Coimbatore, specializing in upscale Thai specials, sushi, ramen, dim sum, and bubble tea.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
